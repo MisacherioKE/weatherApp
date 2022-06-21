@@ -4,3 +4,9 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: beige;
 }
+#icon{
+    font-size: 100px;
+}
+#temp{
+    font-size: 50px;
+}
