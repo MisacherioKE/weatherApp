@@ -2,11 +2,29 @@
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: beige;
+    background-color: rgb(114, 114, 249);
 }
-#icon{
-    font-size: 100px;
-}
+/* #icon{
+ height: 200px;
+} */
 #temp{
-    font-size: 50px;
+    font-size: 100px;
+    color: white;
+    font-weight: bold;
+}
+#locationn{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 8%;
+}
+#weather{
+    margin-left: 2%;
+    font-size: 30px;
+}
+#date{
+    font-size: 12px;
+    margin-left: 5%;
+}
+ body p{
+color: white;
 }

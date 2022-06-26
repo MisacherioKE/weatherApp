@@ -29,6 +29,7 @@ document.getElementById("btn").onclick =()=>{
 console.log(currentWeather);
 document.getElementById("weather").innerHTML = currentWeather.current.condition.text; 
 icon.src = currentWeather.current.condition.icon;
+
 document.getElementById("locationn").innerHTML = currentWeather.location.name;
 document.getElementById("temp").innerHTML = `${currentWeather.current.temp_c}C`;
 document.getElementById("date").innerHTML = currentWeather.location.localtime;
