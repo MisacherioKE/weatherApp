@@ -26,6 +26,7 @@ document.getElementById("btn").onclick =()=>{
 
 
 
+
     fetch("http://api.weatherapi.com/v1/current.json?key=cdfc1ecfa8294e34b64154938221406&q="+location+"&aqi=no")
 .then(querySnapshot => querySnapshot.json())
 .then(currentWeather => {
@@ -38,6 +39,11 @@ document.getElementById("temp").innerHTML = `${currentWeather.current.temp_c}C`;
 document.getElementById("date").innerHTML = currentWeather.location.localtime;
 document.getElementById("wSpeed").innerHTML = `${currentWeather.current.wind_kph}km/h`;
 document.getElementById("humidity").innerHTML = `${currentWeather.current.humidity}%`;
+
+
+document.getElementById("dot").style.display ="block";
+document.getElementById("wind").style.display ="block";
+document.getElementById("hum").style.display ="block";
 
 })
     

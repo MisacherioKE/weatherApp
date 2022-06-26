@@ -12,15 +12,15 @@
 <body>
     <div id="main">
   <!-- <img src="/images/location.svg" alt="" style="height: 50px;"> -->
-  <span><i class="fa-solid fa-location-dot"></i><p id="locationn"></p></span>
+  <span><i id="dot" class="fa-solid fa-location-dot" style="display: none;"></i><p id="locationn"></p></span>
     <img id="icon" style="height: 200px;">
     <p id="temp"></p>
     <p id="weather"></p>
     <p id="date"></p>
     <hr id="line">
     <!-- <img src="/images/wind.svg" alt="" style="height: 50px;"> -->
-    <span><i class="fa-solid fa-wind"></i><p id="wSpeed"></p></span>
-    <span><i class="fa-solid fa-droplet-percent"></i><p id="humidity"></p></span>
+    <span><i id="wind" class="fa-solid fa-wind" style="display: none;"></i><p id="wSpeed"></p></span>
+    <span><i id="hum" class="fa-solid fa-droplet-percent" style="display: none;"></i><p id="humidity"></p></span>
     
     <input type="text" id="location" placeholder="Input your location">
     <input id="btn" type="button" value="fetch">
