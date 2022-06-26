@@ -1,4 +1,7 @@
 "use strict";
+window.oncontextmenu = ()=>{
+    return false;
+}
 
 // function getWeather (){
 //     var location = document.getElementById("location").value;
@@ -18,7 +21,7 @@
 document.getElementById("btn").onclick =()=>{
     var location = document.getElementById("location").value;
     var icon  =  document.getElementById("icon")
-    var weather  = document.getElementById("weather").value; 
+    // var weather  = document.getElementById("weather").value; 
 
 
 
